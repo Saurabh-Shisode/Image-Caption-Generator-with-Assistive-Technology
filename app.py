@@ -20,10 +20,10 @@ vgg16_model = Model(inputs=vgg16_model.inputs, outputs=vgg16_model.layers[-2].ou
 
 url = "https://www.dropbox.com/scl/fi/ziiaynarnez45qgnb76fo/Attentionmodel.h5?rlkey=z8eec4nqmmdjpdkl1u8y6nogt&st=zmglaqco&dl=1"
 
-if not os.path.exists(local_path):
-    response = requests.get(url, stream=True)
-    with open("Attentionmodel.h5", 'wb') as file:
-        file.write(response.content)        
+response = requests.get(url, stream=True)
+with open("Attentionmodel.h5", "wb") as f:
+    for chunk in response.iter_content(chunk_size=8192):
+        f.write(chunk)  
 
 model = tf.keras.models.load_model("Attentionmodel.h5")
 
