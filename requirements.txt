@@ -1,10 +1,23 @@
+# Streamlit for the app
 streamlit==1.26.0
+
+# Core libraries
 numpy==1.23.5
 pandas==2.0.3
 matplotlib==3.7.2
 Pillow==9.5.0
 requests==2.31.0
 tqdm==4.66.1
+
+# TensorFlow for deep learning models
 tensorflow==2.10.1
+tensorflow-estimator==2.10.1
+
+# Natural Language Toolkit for BLEU score
 nltk==3.8.1
+
+# Pyttsx3 for text-to-speech
 pyttsx3==2.97
+
+# Setuptools to fix distutils
+setuptools>=58.0.0
