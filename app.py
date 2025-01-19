@@ -29,7 +29,7 @@ model = tf.keras.models.load_model("Attentionmodel.h5")
 
 
 # Load the tokenizer
-with open('working/tokenizer.pkl', 'rb') as tokenizer_file:
+with open('tokenizer.pkl', 'rb') as tokenizer_file:
     tokenizer = pickle.load(tokenizer_file)
 
 # Set custom web page title
