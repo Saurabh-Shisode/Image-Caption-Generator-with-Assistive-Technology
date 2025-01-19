@@ -4,14 +4,11 @@ asttokens==2.4.1
 astunparse==1.6.3
 attrs==23.1.0
 beautifulsoup4==4.12.3
-blinker @ file:///C:/b/abs_d9y2dm7cw2/croot/blinker_1696539752170/work
 cachetools==5.3.1
 certifi==2023.7.22
 chardet==5.2.0
 charset-normalizer==3.2.0
-click @ file:///C:/b/abs_f9ihnt72pu/croot/click_1698129847492/work
 cloudpickle==3.1.0
-colorama @ file:///C:/b/abs_a9ozq0l032/croot/colorama_1672387194846/work
 comtypes==1.4.7
 contourpy==1.1.0
 cycler==0.11.0
@@ -19,7 +16,6 @@ decorator==5.1.1
 exceptiongroup==1.2.2
 executing==2.1.0
 filelock==3.16.1
-Flask @ file:///C:/b/abs_f9w7doyu0h/croot/flask_1716545924884/work
 flatbuffers==23.5.26
 fonttools==4.42.1
 fsspec==2024.9.0
@@ -38,7 +34,6 @@ huggingface-hub==0.25.0
 idna==3.4
 importlib-metadata==6.8.0
 ipython==8.29.0
-itsdangerous @ file:///C:/b/abs_c4vwgdr5yn/croot/itsdangerous_1716533399914/work
 jax==0.4.14
 jedi==0.19.2
 Jinja2==3.1.2
@@ -51,15 +46,12 @@ kiwisolver==1.4.5
 libclang==16.0.6
 Markdown==3.4.4
 markdown-it-py==3.0.0
-MarkupSafe @ file:///C:/b/abs_ecfdqh67b_/croot/markupsafe_1704206030535/work
 matplotlib==3.7.2
 matplotlib-inline==0.1.7
 mdurl==0.1.2
 MIDIUtil==1.2.1
 mitdeeplearning==0.6.1
 mkl-service==2.4.0
-mkl_fft @ file:///C:/b/abs_f55mv94vyg/croot/mkl_fft_1725370278455/work
-mkl_random @ file:///C:/b/abs_21ydbzdu8d/croot/mkl_random_1725370276095/work
 ml-dtypes==0.2.0
 more-itertools==10.5.0
 music21==9.3.0
@@ -99,7 +91,6 @@ rich==13.5.2
 rpds-py==0.10.0
 rsa==4.9
 safetensors==0.4.5
-scikit-learn @ file:///C:/b/abs_aajc9f7v6r/croot/scikit-learn_1722067652693/work/dist/scikit_learn-1.5.1-cp310-cp310-win_amd64.whl#sha256=d3ded78b7bb91f829cb7be157ece5f47bcf4ff0076062ac61a83823f60df892c
 scipy==1.11.2
 six==1.16.0
 smmap==5.0.0
@@ -114,7 +105,6 @@ tensorflow-estimator==2.12.0
 tensorflow-intel==2.12.0
 tensorflow-io-gcs-filesystem==0.31.0
 termcolor==2.3.0
-threadpoolctl @ file:///C:/b/abs_def0dwqlft/croot/threadpoolctl_1719407816649/work
 tokenizers==0.19.1
 toml==0.10.2
 toolz==0.12.0
